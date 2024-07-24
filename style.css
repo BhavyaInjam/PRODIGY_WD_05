@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(213, 232, 239); 
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#location-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#location-input p {
+    margin-right: 10px;
+}
+
+#get-weather {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(17, 229, 17); 
+    margin-bottom: 20px; 
+}
+
+#weather-data {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: gold; 
+    margin-top: 20px; 
+}
